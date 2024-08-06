@@ -1,6 +1,6 @@
 <?php 
-    $string = "find the hidden treasure at the golden island";
-    $newString = str_replace("golden","mystic","find the hidden treasure at the golden island");
+    $clue = "find the hidden treasure at the golden island";
+    $newString = str_replace("golden","mystic",$clue);
     // echo $newString;
     echo strtoupper($newString);
 
